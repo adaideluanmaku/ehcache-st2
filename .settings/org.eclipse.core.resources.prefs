@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//WebContent/view/b.jsp=UTF-8
+encoding//src/com/ch/dll/Dllrun.java=UTF-8
+encoding//src/com/ch/dll/PASS4Invoke.java=UTF-8
+encoding//src/com/ch/etl/KettleUtils.java=UTF-8
+encoding//src/com/ch/redis/Reditsdu.java=UTF-8
+encoding//src/com/ch/sys/RouteDictionary.java=UTF-8
+encoding//src/com/ch/sys/SysDictDrug.java=UTF-8
+encoding//src/com/ch/sys/SysDisease.java=UTF-8
+encoding//src/com/ch/sys/SysDoctor.java=UTF-8
+encoding//src/com/ch/sys/SysDrugMatch.java=UTF-8
+encoding//src/com/ch/sys/SysFrequency.java=UTF-8
+encoding//src/com/ch/sys/SysMatchRelation.java=UTF-8
+encoding//src/com/ch/sys/SysOperation.java=UTF-8
+encoding//src/com/ch/sys/SysParams.java=UTF-8
+encoding//src/com/ch/sys/SysRouteMatch.java=UTF-8

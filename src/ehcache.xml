@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="true"
+	monitoring="autodetect" dynamicConfig="true"
+	 >
+
+	<!-- <diskStore path="java.io.tmpdir" /> -->
+	<diskStore path="D:/ehcachetest/" />
+	    <!--D:/ehcachetest/
+		
+		-->
+		<!--
+	<defaultCache maxElementsInMemory="10000" eternal="false"
+		timeToIdleSeconds="120" timeToLiveSeconds="120" overflowToDisk="true"
+		maxElementsOnDisk="10000000" diskPersistent="false"
+		diskExpiryThreadIntervalSeconds="120" memoryStoreEvictionPolicy="LRU" />
+		-->
+	
+	<!-- 	
+	<cache name="mc_inter_scrqry" maxBytesLocalHeap="100m"
+		maxEntriesLocalDisk="0" eternal="true" overflowToDisk="true"
+		diskSpoolBufferSizeMB="30" timeToIdleSeconds="0" timeToLiveSeconds="0"
+		memoryStoreEvictionPolicy="LRU" transactionalMode="off"
+		 	diskPersistent="true"
+		>
+	</cache>
+		-->
+ 	  <cache name="mc_drugs"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+   	 </cache>
+    
+    <cache name="mc_route_name"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_lactation"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true" 
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+     </cache>
+    
+     <cache name="mc_lactation_cls"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+     <cache name="mc_adr"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_adr_disicd"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_indic_disicd_valid"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_indic_qrydtl"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+     <cache name="mc_indic_scr"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_adult"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+     <cache name="mc_pediatric"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    
+    <cache name="mc_hepdos_scrdtl"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_route_drug"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_route_drugvalid"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_route_form"
+          maxElementsInMemory="1000"
+            eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <!--                            -->
+    <cache name="mc_modulename"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+
+     <cache name="mc_dosage_detail"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+     <cache name="mc_dosage_link"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+  
+     <cache name="mc_dosage_scr"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_brief_content"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    
+     <cache name="mc_geriatric"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_druglevel_link"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+     <cache name="mc_druglevel_scrqry"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+     <cache name="mc_pregnancy_cls"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_pregnancy1"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_pregnancy2"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>  
+    
+    <cache name="mc_rendos_scrdtl"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+     <cache name="mc_iv_link"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_iv_scrqry"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_iv_single"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_inter_genlink"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    <cache name="mc_inter_genlink2"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+     <cache name="mc_inter_scrqry"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_sex"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_aller_scr"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+
+    <cache name="mc_allergroup_bingid"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_drug_ing0"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_drug_ing1"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+     <cache name="mc_contr_disicd"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_contr_scr"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_drug_ing2"
+          maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+     <cache name="mc_drug_ing3"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+    
+    <cache name="mc_duptherapy"
+           maxElementsInMemory="1000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           memoryStoreEvictionPolicy="FIFO"
+           transactionalMode="off">
+    </cache>
+	 <!-- 
+     <cache name="cache-demo"
+           maxBytesLocalHeap="100M"
+           maxEntriesLocalDisk="1000000"
+           eternal="true"
+           overflowToDisk="true"
+           diskPersistent="true"
+           diskSpoolBufferSizeMB="30"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="0"
+           memoryStoreEvictionPolicy="LRU"
+           transactionalMode="off">
+    
+           <bootstrapCacheLoaderFactory
+			class="net.sf.ehcache.bootstrap.BootstrapCacheLoader"
+			properties="bootstrapAsynchronously=true" />
+			
+			net.sf.ehcache.store.DiskStoreBootstrapCacheLoader
+    </cache>
+     -->
+ 	
+    <!-- 
+    name：Cache的名称，必须是唯一的(ehcache会把这个cache放到HashMap里)。
+    maxBytesLocalHeap:分配的内存大小。
+    maxEntriesLocalDisk：分配的磁盘最大数据量。
+	maxElementsInMemory：内存中保持的对象数量。 
+	maxElementsOnDisk：DiskStore中保持的对象数量，默认值为0，表示不限制。 
+	eternal：是否是永恒数据，如果是，则它的超时设置会被忽略。 
+	overflowToDisk：如果内存中数据数量超过maxElementsInMemory限制，是否要缓存到磁盘上。 
+	diskPersistent：是否在磁盘上持久化。指重启jvm后，数据是否有效。默认为false。 
+	diskSpoolBufferSizeMB：DiskStore使用的磁盘大小，默认值30MB。每个cache使用各自的DiskStore。
+	diskExpiryThreadIntervalSeconds：磁盘失效线程运行时间间隔，默认是120秒。
+	timeToIdleSeconds：对象空闲时间，指对象在多长时间没有被访问就会失效。只对eternal为false的有效。默认值0，表示一直可以访问。 
+	timeToLiveSeconds：对象存活时间，指对象从创建到失效所需要的时间。只对eternal为false的有效。默认值0，表示一直可以访问。 
+	memoryStoreEvictionPolicy：如果内存中数据超过内存限制，向磁盘缓存时的策略。默认值LRU，可选FIFO、LFU。 
+		1 FIFO ，first in first out ，这个是大家最熟的，先进先出，不多讲了
+        2 LFU ， Less Frequently Used ，就是上面例子中使用的策略，直白一点就是讲一直以来最少被使用的。如上面所讲，缓存的元素有一个hit 属性，hit 值最小的将会被清出缓存。
+        3 LRU ，Least Recently Used ，最近最少使用的，缓存的元素有一个时间戳，当缓存容量满了，而又需要腾出地方来缓存新的元素的时候，那么现有缓存元素中时间戳离当前时间最远的元素将被清出缓存。
+    diskExpiryThreadIntervalSeconds：对象检测线程运行时间间隔。标识对象状态的线程多长时间运行一次。 
+    clearOnFlush：内存数量最大时是否清除。
+     -->
+</ehcache>
